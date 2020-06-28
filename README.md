@@ -14,7 +14,7 @@ ReadMe Author: Jinyeop Song
 
 ### Workflow
 
-![img/img1.png](img/img1.png)
+![img/fig1.png](img/fig1.png)
 
 
 DeepIS is an DCNN supervised learning method to enable general, high-throughput, and automated segmentation for 3D Refractive Index(RI) tomograms. We applied this framework to perform Immunological Synnapse segmentation from raw 3D RI tomographic videos of immune response between CART19 and K562-CD19 cells. 
@@ -25,7 +25,7 @@ The dataset is composed of 3D RI tomogram(input) and annotation of cell masks(la
 
 ### Model Architecture
 
-![img/img2.png](img/img2.png)
+![img/fig2.png](img/fig2.png)
 
 This deep neural network is implemented with pytorch. The architecture has the contracting path consisting of ResNet blocks and down-pooling layers and the expanding path consisting of convolutional layers and up-pooling layers. Features are passed from the contracting path and to the expanding path through global convolutional network (GCN) layers. The number of features for each level is 32, 64, 128, 256, 512 respectively.
 
@@ -50,5 +50,5 @@ Before running the main code, "fpath_input" and "fpath_ouput" variables must be 
 
 Use the trained model to do segmentation on test images, the result is statisfactory.
 
-![img/img3.png](img/img3.png)
+![img/fig3.png](img/fig3.png)
 
