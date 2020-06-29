@@ -2,7 +2,7 @@
 
 Title: DeepIS : Deep-learning based three-dimensional label-free tracking and analysis of immunological synapses of CAR-T cells
 
-Authors: Moosung Leea, Young-Ho Leec, Jinyeop Song, Geon Kima, YoungJu Joa, HyunSeok Mine, Chan Hyuk Kimc, and YongKeun Park.
+Authors: Moosung Lee, Young-Ho Lee, Jinyeop Song, Geon Kima, YoungJu Joa, HyunSeok Mine, Chan Hyuk Kimc, and YongKeun Park.
 
 Link: https://www.biorxiv.org/content/10.1101/539858v2
 
@@ -42,7 +42,7 @@ Input file and output file should be 128*128*64.
 
 ### Run main_DeepIS.py
 
-Before running the main code, "fpath_input" and "fpath_ouput" variables must be set proper.
+Before running the main code, "fpath_input" and "fpath_ouput" variables must be set properly.
 
     python3 main_DeepIS.py --feature_scale 1 --gpus 2,3 --test 1
        
